@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vietman-lp-coldtraf</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/android-chrome-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/gsap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="inner">
+
+      <header class="header">
+        <div class="container">
+          <div class="header-logo">
+            <picture class="picture object-fit-cover">
+              <source class="object-fit-cover" srcset="images/logo.svg" type="image/webp"/><img class="picture__img object-fit-cover" src="images/logo.svg" alt=""/>
+            </picture>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+
+
+        <div class="marquee">
+          <div class="weapons">
+            <div class="weapon-wrapper">
+              <img class="weapon" src="images/marquee/marquee-1.png" alt="marquee-1">
+              <img class="weapon-on zoomable" src="images/marquee/marquee-on-1.png" alt="marquee-on-1">
+            </div>
+            <div class="weapon-wrapper">
+              <img class="weapon" src="images/marquee/marquee-2.png" alt="marquee-2">
+              <img class="weapon-on zoomable" src="images/marquee/marquee-on-2.png" alt="marquee-on-2">
+            </div>
+            <div class="weapon-wrapper">
+              <img class="weapon" src="images/marquee/marquee-3.png" alt="marquee-3">
+              <img class="weapon-on zoomable" src="images/marquee/marquee-on-3.png" alt="marquee-on-3">
+            </div>
+            <div class="weapon-wrapper">
+              <img class="weapon" src="images/marquee/marquee-4.png" alt="marquee-4">
+              <img class="weapon-on zoomable" src="images/marquee/marquee-on-4.png" alt="marquee-on-4">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="text-part">
+          <h1 class="title">
+            <span>NHẬN +7%</span> CHO MỖI LẦN TẢI TRONG SỐ BA LẦN TẢI ĐẦU TIÊN CỦA BẠN!
+          </h1>
+          <p class="desc">
+            Mở hộp có cơ hội giành được những trang phục hiếm nhất! Chỉ trong ba lần nạp tiền đầu tiên, bạn sẽ nhận được tiền thưởng +7% và các phần thưởng khác. Đừng bỏ lỡ cơ hội giành được những giải thưởng mà mọi game thủ đều mơ ước!
+          </p>
+          <a class="cta" href={offer_link}>CTA BUTTON</a>
+        </div>
+
+
+      </main>
+
+      <div id="overlay" class="overlay hidden">
+        <div class="overlay-content">
+          <img id="fullImage" class="full-image" src="" alt="Full size image">
+          <span id="closeBtn" class="close-btn">&times;</span>
+        </div>
+      </div>
+
+      <img class="blur blur-left" src="images/blur-left.png" alt="blur-left">
+      <img class="blur blur-right" src="images/blur-right.png" alt="blur-right">
+
+      <footer class="footer">
+        <div class="container"> 
+          <div class="footer__wrap"> 
+            <div class="footer__main"> 
+              <div class="footer__copy"> 
+                <div class="footer__logo"> 
+                  <svg class="icon" width="65" height="60" viewBox="0 0 65 60">
+                    <use xlink:href="images/sprites/main.stack.svg#image-logo"></use>
+                  </svg>
+                </div>Skin.club © 2024
+              </div>
+              <div class="footer__info"> <span>You can get your favorite skin at the best prices. </span><span>All trades work in the automatic mode via Steam bots.</span></div>
+              <div class="footer__about"><span>Moontain Limited (HE410299) 13 Kypranoros street, </span><span>EVI Building, 2nd floor, flat/office 205, 1061, Nicosia, Cyprus.</span></div>
+            </div>
+            <div class="footer__second">
+              <div class="footer__box"> 
+                <div class="footer__payment"> 
+                  <div class="footer__payment-image"><img src="images/payments/visa.svg" alt=""></div>
+                  <div class="footer__payment-image"><img src="images/payments/mastercard.svg" alt=""></div>
+                  <div class="footer__payment-image">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/payments/trustly.webp, images/payments/trustly@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/payments/trustly.png" srcset="images/payments/trustly.png, images/payments/trustly@2x.png 2x" alt=""/>
+                    </picture>
+                  </div>
+                  <div class="footer__payment-image">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/payments/visa-secure.webp, images/payments/visa-secure@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/payments/visa-secure.jpg" srcset="images/payments/visa-secure.jpg, images/payments/visa-secure@2x.jpg 2x" alt=""/>
+                    </picture>
+                  </div>
+                  <div class="footer__payment-image"><img src="images/payments/maestro.svg" alt=""></div>
+                  <div class="footer__payment-image">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/payments/mastercard-id-check.webp, images/payments/mastercard-id-check@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/payments/mastercard-id-check.png" srcset="images/payments/mastercard-id-check.png, images/payments/mastercard-id-check@2x.png 2x" alt=""/>
+                    </picture>
+                  </div>
+                </div>
+                <ul class="footer__links">
+                  <li class="footer__links-item"><a class="footer__link" href="mailto:help@skin.club"> 
+                      <svg class="icon" width="19" height="14" viewBox="0 0 19 14">
+                        <use xlink:href="images/sprites/main.stack.svg#image-mail"></use>
+                      </svg><span class="footer__link-text">help@skin.club</span></a></li>
+                  <li class="footer__links-item"><a class="footer__link" href="https://skin.club/en/faq"> 
+                      <svg class="icon" width="14" height="14" viewBox="0 0 14 14">
+                        <use xlink:href="images/sprites/main.stack.svg#image-faq"></use>
+                      </svg><span class="footer__link-text">FAQ</span></a></li>
+                </ul>
+              </div>
+              <nav class="footer-menu"> 
+                <ul class="footer-menu__list"> 
+                  <li class="footer-menu__item"> <a class="footer-menu__link" href="https://skin.club/en/tos">Terms of service </a></li>
+                  <li class="footer-menu__item"> <a class="footer-menu__link" href="https://skin.club/en/privacy">Privacy policy</a></li>
+                  <li class="footer-menu__item"> <a class="footer-menu__link" href="https://skin.club/en/contacts">Contacts</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <div data-v-ca644d7a="" class="cookies-policy-banner">
+        <div data-v-ca644d7a="" class="cookies-policy-banner__inner-wrapper">
+          <div data-v-ca644d7a="" class="cookies-policy-banner__text-block">
+            <div data-v-ca644d7a="" class="icon-wrap">
+              <img
+                      class="img-cookies"
+                      data-v-ca644d7a=""
+                      src="images/cookie.png"
+                      alt="Cookie banner icon"
+                      width="85"
+                      height="100"
+              >
+            </div><div data-v-ca644d7a="" class="text">
+            <div data-v-ca644d7a="" class="title">
+              Accept Cookies?
+            </div><p data-v-ca644d7a="">
+            Our website uses cookies to improve your experience and to analyze the use of our website. By clicking "Accept" or continuing to browse the site, you agree to our use of cookies, according to our <a data-v-ca644d7a="" href="https://skin.club/en/cookie-policy" class="">Cookie Policy</a>
+          </p>
+          </div>
+          </div><div data-v-ca644d7a="" class="cookies-policy-banner__button-block">
+          <button data-v-37cc08f2="" data-v-ca644d7a="" class="button-wrapper button accept-cookie-button">
+            <!----><div data-v-37cc08f2="" class="button__content">
+            Accept <i data-v-ca644d7a="" class="check-icon"></i>
+          </div>
+          </button>
+        </div>
+        </div>
+      </div>
+    <script>
+      // Set default consent to 'denied' as a placeholder
+      // Determine actual values based on your own requirements
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
+      });
+    </script>
+    <!-- Create one update function for each consent parameter -->
+    <script>
+      function consentGrantedAdStorage() {
+        gtag('consent', 'update', {
+          'ad_storage': 'granted',
+        });
+      }
+      function consentGrantedAdUserData() {
+        gtag('consent', 'update', {
+          'ad_user_data': 'granted'
+        });
+      }
+      function consentGrantedAdPersonalization() {
+        gtag('consent', 'update', {
+          'ad_personalization': 'granted'
+        });
+      }
+      function consentGrantedAnalyticsStorage() {
+        gtag('consent', 'update', {
+          'analytics_storage': 'granted'
+        });
+      }
+
+      document.querySelector('.accept-cookie-button').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.cookie = "cookiesAccepted=true;max-age=31536000;path=/";
+        document.querySelector('.cookies-policy-banner').remove();
+        consentGrantedAdStorage();
+        consentGrantedAdUserData();
+        consentGrantedAdPersonalization();
+        consentGrantedAnalyticsStorage();
+      });
+
+      let matches = document.cookie.match(new RegExp("(?:^|; )" + 'cookiesAccepted'.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+      if (matches && matches[1] === 'true') {
+        document.querySelector('.cookies-policy-banner').remove();
+        consentGrantedAdStorage();
+        consentGrantedAdUserData();
+        consentGrantedAdPersonalization();
+        consentGrantedAnalyticsStorage();
+      }
+    </script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
